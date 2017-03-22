@@ -1,5 +1,5 @@
 <!doctype html> <!-- Timetable.html-->
-<html lang="ko">
+<html>
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -7,7 +7,7 @@
   <style>
 	table, tr, td, th {
 				border: 1px solid black;
-				
+				border-collapse: collapse;
 				text-align: center;
 			  }
 	th {height: 20px}
@@ -36,31 +36,33 @@
 		}
 	.mos {
 			background-color: #F5A295;
-		}
+		}	
 </style>		
 <body>
 <table>
 <caption><20161430 신민선> TimeTable</caption>
+	<thead>
 	<tr>
  	  <th></th>
-  	  <th><mark>월</th>
-  	  <th><mark>화</th>
-   	  <th><mark>수</th>
-   	  <th><mark>목</th>
-   	  <th><mark>금</th>
-   	  <th><mark>토</th>
-	</tr><tr>
+  	  <th><bold>월</th>
+  	  <th><bold>화</th>
+   	  <th><bold>수</th>
+   	  <th><bold>목</th>
+   	  <th><bold>금</th>
+   	  <th><bold>토</th>
+	</tr></thead>
+	<tbody><tr>
    	  <td>1교시<br/>09:00~10:00</td>
    	  <td></td>                                                 
    	  <td></td>                                                   
-   	  <td class="digit" rowspan="2">[자료구조 및 실습]</br>이경휘 교수님</td>
+   	  <td class="data" rowspan="2">[자료구조 및 실습]</br>이경휘 교수님</td>
 
    	  <td></td>                                                  
    	  <td></td>
    	  <td></td>
 	</tr><tr>
     	  <td>2교시<br/>10:00~11:00</td>
-   	  <td class="data" rowspan="2">[디지털 논리회로]<br/>김용수 교수님</td>  
+   	  <td class="digit" rowspan="2">[디지털 논리회로]<br/>김용수 교수님</td>  
 
    	  <td></td>                                                                                                            
    	  <td></td>                                                  
@@ -68,9 +70,9 @@
    	  <td></td>
 	</tr><tr>
    	  <td>3교시<br/>11:00~12:00</td>                                                          
-   	  <td class="discuss" rowspan="2">[자료구조 및 실습]<br/>이경휘 교수님</td>
+   	  <td class="data" rowspan="2">[자료구조 및 실습]<br/>이경휘 교수님</td>
    
-   	  <td class="data">[디지털 논리회로]<br/>김용수 교수님</td>             
+   	  <td class="digit">[디지털 논리회로]<br/>김용수 교수님</td>             
    	  <td class="eng" rowspan="2">[영어회화]<br/>티모시롤랜드</td>           
 
    	  <td></td>
@@ -114,5 +116,6 @@
    	  <td></td>                                                  
   	  <td></td>
    	  <td></td>
-    	</tr>
-   	</table></body></html>
+    	</tr></tbody>
+   	</table>
+</body></html>
