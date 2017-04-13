@@ -1,74 +1,50 @@
-﻿<!doctype  html>  <!--   reservation.html  -->
+<!doctype html> <!-- reservation1.html -->
 <html>
- <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport"content="width=device-width, initial-scale=1"/> 
-<style>
-  header, nav, section, article, aside, footer
-  {border:1px solid black; margin:5px; padding:8px; width:1000px;}
-  header img {width:990px; height:200px;}
-  section{width:1000px; float:left;}
-  section section {width:990px; float:left;}
-  fieldset {width:900px; float:left;}
-  footer{height:50px; clear:both;}
-  a:link {
-    color:blue; background-color:transparent; text-decoration:none;}
-  a:visited {
-    color:pink; background-color:transparent; text-decoration:none;}
-  a:hover {
-    color:red; background-color:transparent; text-decoration:underline;}
-  a:active {
-    color:blue; background-color:transparent; text-decoration:none;}
-</style>
-  <title>음식점 예약</title></head>
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>음식점 예약 화면</title>
+</head>
 <body>
-<header>
-<h2 style="text-align:center">00 음식점에 오신것을 환영합니다.</h2>
-</header>
-<section>
-<form  action="http://hive.dju.ac.kr/~drkdhong/semantic/reservation2.jsp" method="post">
-  <fieldset>
-  <legend>예약자 정보</legend>
-    <label for="datex">이름: </label>
-    <input type="text" id="namex" name="namex"/><br/>
-    <label for="numberx">휴대전화: </label>
-    <input type="tel" id="numberx" name="numberx" placeholder="00*-000*-0000" pattern="[0-9]{2,3}-[0-9]{3,4}-[0-9]{4}"/><br/>
-    <label for="personx">인원: </label>
-    <input type="number" id="personx" name="personx" min="1" step="1"/>
-  </fieldset>
-  <fieldset>
-    <legend>약속 날짜 시간 입력</legend>
-    <label for="datex">날짜: </label>
-    <input type="date" id="datex" name="datex"/><br/>
-    <label for="timex">시간: </label>
-    <input type="time" id="times" name="timex"/><br/>
-  </fieldset>
-  <fieldset>
-    <legend>MENU 입력</legend>
-    <label for="timex">시간</label>
+	<form  action="http://hive.dju.ac.kr/~drkdhong/semantic/reservation2.jsp" method="post">
+ 			<fieldset>
+				<legend>예약자 정보</legend>
+				<label for="datex">이름: </label>
+				<input type="text" id="namex" name="namex"/><br/>
+				<label for="numberx">휴대전화: </label>
+				<input type="tel" id="numberx" name="numberx" placeholder="00*-000*-0000" pattern="[0-9]{2,3}-[0-9]{3,4}-[0-9]{4}"/><br/>
+				<label for="personx">인원: </label>
+				<input type="number" id="personx" name="personx" min="1" step="1"/>
+			</fieldset>
+			<fieldset>
+				<legend>약속 날짜 시간 입력</legend>
+				<label for="datex">날짜: </label>
+				<input type="date" id="datex" name="datex"/><br/>
+				<label for="timex">시간: </label>
+				<input type="time" id="times" name="timex"/><br/>
+			</fieldset>
+			<fieldset>
+				<legend>식사 선택</legend>
+				<label for="timex">시간</label>
 				<select id="timex" name="mealtime">
 					<option value="아침">아침</option>
 					<option value="점심">점심</option>
 					<option value="저녁"selected>저녁</option>
 				</select>
-    <label for="mealx">식사</label>
-    <select id ="mealx" name="menu" multiple>
-    <option value="선택" selected>선택</option>
-    <option value="떡볶이">떡볶이</option>
-    <option value="쫄면">쫄면</option>
-    <option value="순대">순대</option>
-    <option value="어묵">어묵</option>
-    <option value="튀김">튀김</option>
-    <option value="사이다">사이다</option>
-    <option value="콜라">콜라</option>
-  </select></fieldset><br/><br/>
-  <fieldset style="text-align:right">
-  <legend style="text-align:left">SUBMIT</legend>
-  <button type="submit">예약</button>
-  <input  type="reset" name="reset1" value="취소"/>
-  </fieldset>
-</form></section>
-<footer>
-  <p>&copy;20XX Made by Korea. All rights reserved.</p>
-</footer>
-</body></html>
+				<legend>메뉴</legend>
+				<label for="mealx">식사</label>
+				<select id ="mealx" name="meal" multiple>
+					<option value="아메리카노" selected>아메리카노</option>
+					<option value="카페라떼">카페라떼</option>
+					<option value="바닐라라떼">바닐라라떼</option>
+					<option value="카페모카">카페모카</option>
+					<option value="에스프레소">에스프레소</option>
+					<option value="아포카토">아포카토</option>
+					<option value="탄산수">탄산수</option>
+				</select>
+			</fieldset>
+			<button type="submit">예약</button>
+			<input  type="reset" name="reset1" value="취소"/>
+	</form>
+</body>
+</html>
