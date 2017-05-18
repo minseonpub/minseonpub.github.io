@@ -1,5 +1,4 @@
-<!doctype  html>  <!--    rwd4.css  -->        
- *{  box-sizing:border-box; padding:0; margin:0; }   
+* {  box-sizing:border-box; padding:0; margin:0; }   
 .row::after { content:""; clear:both; display:table; } 
 [class*="col-"] { float:left; padding:10px;} 
 .header, .footer { background-color:lightgray; color:blue; padding:10px;}
