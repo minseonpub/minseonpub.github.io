@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+<section>
+<script>
+var namex = ["홍길동", "이몽룡", "변학도","손오공","저팔계"];
+for(var i=0;i<namex.length;i++ ){
+document.write(namex[i],"<br/>");
+}
+var sum=0;
+var datax = [10,13,15,17,29,11,13,14,21,34];
+for(var i=0;i<datax.length;i++)
+	sum=sum + datax[i];
+document.write("for합계=", sum, "<br/>");
+
+var sum =0;
+for(var i in datax)
+sum = sum + datax[i];
+document.write("for합계=", sum, "<br/>");
+
+</script></section>
+</body>
+</html>
