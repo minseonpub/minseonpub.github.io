@@ -6,7 +6,7 @@
   <script src ="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script>
 function fnGetElementsById(){
-	var accessTag = document.getElementById("input_id1");
+	var accessTag = document.getElementsById("input_id1");
 	console.log(accessTag.tagName);
 	accessTag.setAttribute("value","getElementById실행!");
 }
@@ -19,7 +19,7 @@ function fnGetElementsById(){
 <input id = "button_id1" type="button" name="user_id" value="입력"/><br/>
 빈칸에 검색어를 넣고 입력해 주세요.
 </form>
-<form><input type="button" onClick="fnGetElementById();" value="변경실행"\></form>
+<form><input type="button" onClick="fnGetElementsById();" value="변경실행"\></form>
 </section>
 </body>
 </html>
