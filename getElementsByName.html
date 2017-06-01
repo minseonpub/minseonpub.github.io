@@ -6,7 +6,7 @@
   <script src ="http://code.jquer.com/jquery-1.11.1.min.js"></script>
 <script>
 function fnGetElementsByName(){
-	var accessTag = document.getElementByName("input_name1")[0];
+	var accessTag = document.getElementsByName("input_name1")[0];
 	console.log(accessTag.tagName);
 	accessTag.setAttribute("value","getElementByName실행!");
 }
@@ -19,7 +19,7 @@ function fnGetElementsByName(){
 <input id = "button_id1" type="button" name="user_id" value="입력"/><br/>
 빈칸에 검색어를 넣고 입력해 주세요.
 </form>
-<form><input type="button" onClick="fnGetElementByName();" value="변경실행"\></form>
+<form><input type="button" onClick="fnGetElementsByName();" value="변경실행"\></form>
 </section>
 </body>
 </html>
