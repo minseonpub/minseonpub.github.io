@@ -1,0 +1,18 @@
+﻿ <!--MrBig_android.css-->
+ @charset "utf-8"; 
+ header, section, footer
+ {border:1px solid transparent; margin:5px auto; padding:8px; width:1500px;}
+ header {margin-top:0px; margin-bottom:0px;}
+ header ul {margin:0px; padding:0px; text-align:center;}
+ header ul li {display:inline-block; margin-right:40px; margin-left:40px;}
+ section {padding-top:0px; padding-bottom:0px;}
+ #main {border:1px solid transparent; padding-top:5px; width:100%; height:auto; display:inline-block;}
+ 
+ #download {border:transparent; margin:0 auto; margin-top:70px;}
+ #app_dis th {font-size: 27px;}
+ #app_dis tbody {font-size: 15px;}
+ #app_dis {width:1000px; border:transparent; margin:0 auto; text-align:center;}
+ #app_dis img {width:1000px;}
+
+ footer{height:50px; text-align:center;}
+ footer p { color: gray; font-size: 20px; font-style:italic; text-align:center;}

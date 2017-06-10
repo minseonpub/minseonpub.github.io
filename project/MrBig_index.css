@@ -1,7 +1,7 @@
  @charset "utf-8"; 
  @import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css); <!--³ª´®¼Õ±Û¾¾ ÆùÆ®-->
  body {display:inline-block;}
- header, nav, section, aside, footer
+ header, nav, section, footer
  {border:1px solid transparent; margin:5px auto; padding:8px; width:1920px;}
  #center { width :1920px;} 
  #main {border:1px solid tranparent; padding-top:5px; width:1920px; height:1280px;
