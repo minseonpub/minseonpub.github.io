@@ -5,14 +5,13 @@
 
  #main {border:1px solid transparent; padding-top:5px; width:100%; height:auto; 
             display:inline-block; text-align:center; margin:auto;}
- #main ul li {font-size: 20px;}
+ #main ul li {font-size: 20px; color : #F03B7A; font-weight: bold;}
  header {margin-top:0px; margin-bottom:0px;}
  header ul {margin:0px; padding:0px; text-align:center;}
  header ul li {display:inline-block; margin-right:40px; margin-left:40px; font-size: 24px;}
 
- #2016_1 table {text-align: center; border:1px solid black;}
- #2016_2 table {text-align: center; border:1px solid black;}
- table td, th {border:1px solid black; height:30px; text-align:center;}
+ div table td, th {border-size:2px; height:30px; text-align:center; border-style:groove; border-color : #F03B7A;}
+ div table th {background-color:#EE7FA5;}
 
  footer{ height:50px; text-align:center;}
  footer p { color: gray; font-size: 20px; font-style:italic; text-align:center;}
