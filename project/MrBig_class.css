@@ -1,5 +1,6 @@
 ﻿<!-- MrBig_class.css -->
  @import url("http://fonts.googleapis.com/earlyaccess/notosanskr.css");
+ body { margin:0 auto; }
  header, section, footer
  {border:1px solid transparent; margin:5px auto; padding:8px; width:100%;}
  
