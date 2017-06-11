@@ -3,7 +3,7 @@
  header, section, footer
  {border:1px solid transparent; margin:5px auto; padding:8px; width:100%;}
  
- #plan { display:inline-block; text-align:left; margin-left:50px;}
+ #plan { display:inline-block; text-align:left; margin-left:100px;}
  #example {text-align:center; font-size:22pt;}
  #assignment {text-align:center; font-size:22pt;}
  #re_plan { margin:0 auto; width:500px; display:inline-block; border: transparent; height:2080px;}
