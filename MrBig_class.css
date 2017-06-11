@@ -1,0 +1,26 @@
+﻿<!-- MrBig_class.css -->
+ @import url("http://fonts.googleapis.com/earlyaccess/notosanskr.css");
+ body { margin:0 auto; }
+ header, section, footer
+ {border:1px solid transparent; margin:5px auto; padding:8px; width:100%;}
+ 
+ #plan { display:inline-block; text-align:left; margin-left:100px;}
+ #example {text-align:center; font-size:22pt;}
+ #assignment {text-align:center; font-size:22pt;}
+ #re_plan { margin:0 auto; width:500px; display:inline-block; border: transparent; height:2080px;}
+ #ex_plan { margin:0 auto; width:500px; display:inline-block; border:transparent; float:left;  }
+ #ex_plan ul {background-color:#E6C7D2;}
+ #re_plan ul {background-color:#E6C7D2;}
+
+a:link{color:brown; background-color:transparent; text-decoration:none;}
+a:visited{color:brown; background-color:transparent; text-decoration:none;}
+a:hover{color:red; background-color:transparent; text-decoration:underline;}
+a:active{color:blue; background-color:transparent; text-decoration:none;}
+
+ section {float:left; display:inline-block; width:32%; border: 1px solid transparent; height:3150px;}
+ #mid {text-align:center;}
+ #M {margin-top:0px; margin-bottom:0px;}
+ #M ul {margin:0px; padding:0px; text-align:center;}
+ #M ul li {display:inline-block;}	
+ footer {height:50px; width:100%;}
+ footer p { color: gray; font-size: 20px; font-style:italic; text-align:center; font-family: ‘Noto Sans KR’ ; }
