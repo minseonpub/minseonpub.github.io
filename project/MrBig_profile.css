@@ -1,15 +1,16 @@
-﻿ <!--MrBig_profile.css-->
+﻿<!--MrBig_profile.css-->
  @charset "utf-8"; 
  @import url("http://fonts.googleapis.com/earlyaccess/notosanskr.css");
  header, nav, section, footer
  {border:1px solid transparent; margin:5px auto; padding:8px; width:100%;}
+ body { font-family :'나눔고딕', 'Malgun Gothic', sans-serif;}
 
  section {padding-bottom:0px; padding-top:0px; display:inline-block; width:100%; float:left; }
- #write {width:700px;font-size:14pt; text-align:left; display:inline-block; margin-left:80px; padding-top:30px; font-family: ‘Noto Sans KR’ ;}
+ #write {width:700px;font-size:14pt; text-align:left; display:inline-block; padding-top:30px; font-family: ‘Noto Sans KR’ ;}
  #name {text-align:left; font-size:20px;font-family: ‘Noto Sans KR’ ;}
  #birth {text-align:left; font-size:20px;font-family: ‘Noto Sans KR’ ;}
  #main img { width:130px; display:inline-block; margin-top:20px;padding-top:30px; }
- #timetable { display:inline-block; margin-left:140px; font-size:20px;}
+ #timetable { display:inline-block; font-size:20px;}
  #timetable { border: transparent; border-style: double; border-collapse: collapse; text-align:center; font-size:90%;  font-family: ‘Noto Sans KR’;}
  #timetable tr {border: white; border-style: double; border-collapse: collapse; text-align:center; font-size:90%;font-family: ‘Noto Sans KR’ ;} 
  #timetable td {border: white; border-style: double; border-collapse: collapse; text-align:center; font-size:90%;font-family: ‘Noto Sans KR’ ;}
@@ -27,9 +28,9 @@
  .cplus {background-color: #B52941;}
  .mentor {background-color: #BA8A92;}
  .mos {background-color: #F5A295;}
- #M {margin-top:0px; margin-bottom:0px; margin-left: 100px;}
+ #M {margin-top:0px; margin-bottom:0px; margin-left: 100px; }
  #M ul {margin:0px; padding:0px; text-align:center;}
  #M ul li {display:inline-block; margin-right:40px; margin-left:40px;}	
-
+ #M ul li img {border: transparent;}
  footer {height:50px;}
  footer p { color: gray; font-size: 20px; font-style:italic; text-align:center; font-family: ‘Noto Sans KR’ ; }
